@@ -1,70 +1,195 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .noto-serif-font {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight:700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-.inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-body{
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.orange {
+    color: #E95A08;
+}
+
+.gray {
+    color: gray;
+}
+
+body {
     background: #F5F8FF;
 }
-.nav-items{
+
+.nav-items {
     width: 1140px;
     margin: 0 auto;
+    padding-top: 20px;
     display: flex;
+    background: rebeccapurple;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
 }
-.nav-items ul{
+
+.nav-items ul {
     width: 400px;
     display: flex;
     justify-content: space-between;
 }
-.nav-items ul li{
+
+.nav-items ul li {
     list-style: none;
 }
-.nav-items ul li a{
+
+.nav-items ul li a {
     text-decoration: none;
     color: black;
 }
+
 /* hero section */
-.hero-section{
+.hero-section {
+    background: rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-     width: 1140px;
-     margin: 0 auto;
+    width: 1140px;
+    margin: 100px auto;
 }
-.hero-section div{
+
+.hero-section div {
     width: 500px;
 }
-.hero-section div h1{
+
+.hero-section div h1 {
     font-size: 3rem;
-    padding:  30px 0px;   
+    padding: 30px 0px;
 }
-.hero-section div h4{
+
+.hero-section div h4 {
     font-size: 1.2rem;
     width: 470px;
     font-family: 'inter';
-    color: gray;
+
 }
-.hero-section div span{
-    color: #E95A08;
-}
+
 /* hero section */
+/* our-plants-section*/
+.our-plants-section {
+    width: 1140px;
+    height: auto;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.our-plants-section .heading {
+    width: 700px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 2.5rem;
+}
+
+.heading h4 {
+    padding: 20px 0px 40px 0px;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 250px;
+}
+
+.card h5 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card button {
+    width: 250px;
+    border: none;
+    height: 40px;
+    background: #E95A08;
+    color: white;
+}
+
+/* our-plants-section*/
+/* flower-lover-section*/
+.flower-lover {
+    width: 1140px;
+    height: 500px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flower-lover img {
+    max-width: 450px;
+    height: auto;
+    margin-right: 40px;
+}
+.badge{
+    position: relative;
+}
+.badge .badge-img{
+    position: absolute;
+    top: -90px;
+    left: 340px;
+}
+.badge-img img{
+    width: 200px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.desc {
+    margin-left: 30px;
+}
+
+.flower-lover h2 {
+    margin-top: 40px;
+    font-size: 3rem;
+}
+
+.flower-lover ul {
+    width: 500px;
+    height: auto;
+    padding: 20px 0px;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+
+.flower-lover ul li {
+    padding: 10px 0px;
+}
+
+/* flower-lover-section*/
