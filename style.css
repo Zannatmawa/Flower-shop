@@ -36,7 +36,7 @@ body {
 }
 
 .nav-items {
-    width: 1140px;
+    width: 80%;
     margin: 0 auto;
     padding-top: 20px;
     display: flex;
@@ -54,7 +54,7 @@ body {
     list-style: none;
 }
 
-.nav-items ul li a {
+.nav-items ul a {
     text-decoration: none;
     color: black;
 }
@@ -373,8 +373,14 @@ footer div ul li a {
 /* footer -section*/
 /* responsive*/
 @media (min-width:430px) and (max-width:932px) {
-    .nav-items ul {
+    .nav-items ul li {
         display: none;
+    }
+
+    .nav-items ul a {
+        font-size: 1.5rem;
+        margin-left: 100px;
+        margin-top: 20px;
     }
 
     /* nav */
