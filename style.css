@@ -367,11 +367,11 @@ footer div ul li a {
 }
 
 .icon-div ul li img {
-    width: 25px;
+    width: 30px;
 }
 
 /* footer -section*/
-/* responsive*/
+/* responsive 430px*/
 @media (min-width:430px) and (max-width:932px) {
     .nav-items ul li {
         display: none;
